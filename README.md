@@ -4,7 +4,7 @@ This is a basic Battleships app. It is a sample tech test to work on using a TDD
 
 * [Kirill Zabrodin](https://github.com/kirillzabrodin)
 
-### [User Stories](https://github.com/tomasdoh/acebook-floppy-disk#user-stories) | [Installation](https://github.com/tomasdoh/acebook-floppy-disk#installation) | [Usage](https://github.com/tomasdoh/acebook-floppy-disk#usage) | [Tests](https://github.com/tomasdoh/acebook-floppy-disk#tests) | [Example](https://github.com/tomasdoh/acebook-floppy-disk#example) | [Contributing](https://github.com/tomasdoh/acebook-floppy-disk#contributing)
+### [User Stories](https://github.com/kirillzabrodin/battleships#user-stories) | [Installation](https://github.com/kirillzabrodin/battleships#installation) | [Usage](https://github.com/kirillzabrodin/battleships#usage) | [Tests](https://github.com/kirillzabrodin/battleships#tests) | [Example](https://github.com/kirillzabrodin/battleships#example) | [Contributing](https://github.com/kirillzabrodin/battleships#contributing)
 
 ## User stories
 User stories above this have been implemented using TDD.
