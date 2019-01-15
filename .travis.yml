@@ -1,6 +1,6 @@
 language: node_js
 script:
-- npx cypress run
+- npm test
 node_js:
 - 10.14.1
 install:

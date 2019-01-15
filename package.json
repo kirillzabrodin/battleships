@@ -1,0 +1,19 @@
+{
+  "name": "battleships",
+  "version": "1.0.0",
+  "description": "A JavaScript battleships game",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirillzabrodin/battleships.git"
+  },
+  "author": "Kirill Zabrodin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirillzabrodin/battleships/issues"
+  },
+  "homepage": "https://github.com/kirillzabrodin/battleships#readme"
+}

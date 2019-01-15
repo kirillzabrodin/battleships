@@ -58,7 +58,7 @@ I would like to play a two-player game
 
 ### Usage
 
-Testing is done via Cypress. Run ```npx cypress open``` to open the app and click on 'Run all tests' to run test suite.
+Testing is done via Cypress. Run ```npm test``` to open the app and click on 'Run all specs' to run test suite.
 
 
 ### Example
