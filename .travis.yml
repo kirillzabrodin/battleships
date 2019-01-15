@@ -1,0 +1,7 @@
+language: node_js
+script:
+- npx cypress run
+node_js:
+- 10.14.1
+install:
+- npm ci
