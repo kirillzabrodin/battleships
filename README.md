@@ -1,6 +1,10 @@
-# Battleships tech test   [![Build Status](https://travis-ci.org/kirillzabrodin/battleships.svg?branch=master)](https://travis-ci.org/kirillzabrodin/battleships) 
+# Battleships tech test   [![Build Status](https://travis-ci.org/kirillzabrodin/battleships.svg?branch=master)](https://travis-ci.org/kirillzabrodin/battleships)
 
 This is a basic Battleships app. It is a sample tech test to work on using a TDD style of development and writing SOLID code.
+
+* [Kirill Zabrodin](https://github.com/kirillzabrodin)
+
+### [User Stories](https://github.com/tomasdoh/acebook-floppy-disk#user-stories) | [Installation](https://github.com/tomasdoh/acebook-floppy-disk#installation) | [Usage](https://github.com/tomasdoh/acebook-floppy-disk#usage) | [Tests](https://github.com/tomasdoh/acebook-floppy-disk#tests) | [Example](https://github.com/tomasdoh/acebook-floppy-disk#example) | [Contributing](https://github.com/tomasdoh/acebook-floppy-disk#contributing)
 
 ## User stories
 User stories above this have been implemented using TDD.
@@ -58,8 +62,10 @@ I would like to play a two-player game
 
 ### Usage
 
-Testing is done via Cypress. Run ```npm test``` to open the app and click on 'Run all specs' to run test suite.
 
+### Tests
+
+Testing is done via Cypress. Run ```npm test``` to open the app and click on 'Run all specs' to run test suite.
 
 ### Example
 
