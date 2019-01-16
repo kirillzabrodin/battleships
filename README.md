@@ -63,7 +63,13 @@ Clone the repo and run ```npm install``` to get all the testing dependencies.
 
 ### Tests
 
-Testing is done via Jasmine. Run ```npm test``` to have jasmine run and results display to your terminal.
+Testing is done via Jasmine. Run ```npm test``` to have jasmine run and results display to your terminal. This will also run the linter and test coverage.
+
+Alternatively open SpecRunner.html in ./spec/jasmine in a browser for another format. This won't run the coverage or linter though. You can run the linter with ```npm run pretest```.
+
+ESLint is used as the linter and Istanbul for coverage. ESLint is used with its recommended syntax notation.
+
+Code tests won't run if linter doesn't pass and coverage reports can be found in the [coverage file](https://github.com/kirillzabrodin/battleships/tree/master/spec/jasmine/coverage).
 
 ### Example
 
