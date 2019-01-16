@@ -54,18 +54,16 @@ So that I can play against a human opponent
 I would like to play a two-player game
 ```
 
-
-![Tracking pixel](https://githubanalytics.herokuapp.com/course/individual_challenges/battleships_tech_test.md)
-
 ### Installation
 
+Clone the repo and run ```npm install``` to get all the testing dependencies.
 
 ### Usage
 
 
 ### Tests
 
-Testing is done via Cypress. Run ```npm test``` to open the app and click on 'Run all specs' to run test suite.
+Testing is done via Jasmine. Run ```npm test``` to have jasmine run and results display to your terminal.
 
 ### Example
 
