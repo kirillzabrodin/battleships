@@ -64,7 +64,7 @@ module.exports = function (config) {
 
     reporters: ['progress', 'coverage'],
 
-    preprocessors: { './**/**/src/*.js': ['coverage'] },
+    preprocessors: { '../../src/*.js': ['coverage'] },
 
     coverageReporter: {
       type: 'lcov',
