@@ -1,7 +1,7 @@
 // Karma configuration
 // Generated on Wed Jan 16 2019 00:08:44 GMT+0000 (Greenwich Mean Time)
 
-module.exports = function(config) {
+module.exports = function (config) {
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
@@ -15,7 +15,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      '*Spec.js', '../../src/*.js'
+      '*Spec.js', '../../src/*.js',
     ],
 
 
@@ -67,12 +67,12 @@ module.exports = function(config) {
     preprocessors: { './**/**/src/*.js': ['coverage'] },
 
     coverageReporter: {
-      type : 'lcov',
-      dir : 'coverage/'
+      type: 'lcov',
+      dir: 'coverage/',
     },
 
     // Concurrency level
     // how many browser should be started simultaneous
-    concurrency: Infinity
-  })
-}
+    concurrency: Infinity,
+  });
+};

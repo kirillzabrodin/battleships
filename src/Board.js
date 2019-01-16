@@ -1,5 +1,5 @@
-var Board = function() {}
+const Board = function () {};
 
-Board.prototype.draw = function() {
+Board.prototype.draw = function () {
   return '0';
-}
+};

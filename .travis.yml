@@ -10,6 +10,6 @@ before_install:
 env:
   -CODECOV_TOKEN="3dc8c6bf-29ae-4464-85ae-c2773bb5f3be"
 after_success:
-  - codecov --file coverage/lcov.info --disable search
+  - codecov --file spec/jasmine/coverage/Chrome 71.0.3578 (Mac OS X 10.14.2)/lcov.info --disable search
 before_script:
   - npm install
