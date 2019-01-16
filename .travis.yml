@@ -1,10 +1,15 @@
 language: node_js
 node_js:
     - "10.10"
-script: karma start spec/jasmine/karma.conf.js --single-run
+script: karma start spec/jasmine/karma.conf.js
 before_install:
-- export CHROME_BIN=chromium-browser
-- export DISPLAY=:99.0
-- sh -e /etc/init.d/xvfb start
+  - pip install --user codecov
+  - export CHROME_BIN=chromium-browser
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
+env:
+  -CODECOV_TOKEN="3dc8c6bf-29ae-4464-85ae-c2773bb5f3be"
+after_success:
+  - codecov --file coverage/lcov.info --disable search
 before_script:
-    - npm install
+  - npm install

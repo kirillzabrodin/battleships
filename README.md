@@ -69,4 +69,6 @@ Testing is done via Jasmine. Run ```npm test``` to have jasmine run and results 
 
 ### Contributing
 
+To contribute submit a PR with a description of the new features implemented. If you change any functionality or structure within the codebase please describe what you changed and why.
+
 When contributing all code must be fully tested and coverage must remain high.

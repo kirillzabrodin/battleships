@@ -60,7 +60,10 @@ module.exports = function(config) {
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
-    singleRun: false,
+    singleRun: true,
+
+    reporters: ['progress', 'coverage'],
+    preprocessors: { '*.js': ['coverage'] },
 
     // Concurrency level
     // how many browser should be started simultaneous
