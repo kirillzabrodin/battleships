@@ -63,7 +63,13 @@ module.exports = function(config) {
     singleRun: true,
 
     reporters: ['progress', 'coverage'],
-    preprocessors: { '*.js': ['coverage'] },
+
+    preprocessors: { './**/**/src/*.js': ['coverage'] },
+
+    coverageReporter: {
+      type : 'lcov',
+      dir : 'coverage/'
+    },
 
     // Concurrency level
     // how many browser should be started simultaneous
