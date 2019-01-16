@@ -1,4 +1,4 @@
-# Battleships tech test   [![Build Status](https://travis-ci.org/kirillzabrodin/battleships.svg?branch=master)](https://travis-ci.org/kirillzabrodin/battleships)
+# Battleships tech test   [![Build Status](https://travis-ci.org/kirillzabrodin/battleships.svg?branch=master)](https://travis-ci.org/kirillzabrodin/battleships)   [![codecov](https://codecov.io/gh/kirillzabrodin/battleships/branch/master/graph/badge.svg)](https://codecov.io/gh/kirillzabrodin/battleships)
 
 This is a basic Battleships app. It is a sample tech test to work on using a TDD style of development and writing SOLID code.
 
