@@ -29,5 +29,10 @@ describe('Board', () => {
       board.addShip([0],[0])
       expect(board.showAlly()[0][0]).toEqual(1);
     });
+
+    it('adds ships of different lengths', () => {
+      board.addShip([0],[0])
+      expect(board.showAlly()[0][0]).toEqual(1);
+    });
   });
 });

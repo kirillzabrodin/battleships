@@ -8,7 +8,7 @@ This is a basic Battleships app. It is a sample tech test to work on using a TDD
 
 ## User stories
 ```
-As a player
+- [x] As a player
 So that I can prepare for the game
 I would like to place a ship in a board location
 ```

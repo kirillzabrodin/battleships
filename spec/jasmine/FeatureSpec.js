@@ -19,7 +19,23 @@ describe('Game', () => {
                 [0,0,0,0,0,0,0,0,0,0],
                 [0,0,0,0,0,0,0,0,0,0]]
 
-      player.placeShip([0],[0])
+      player.placeShip([[0],[0]], 1)
+      expect(player.lookAtOwnBoard()).toEqual(result)
+    })
+
+    it('can place a ship on the board', function() {
+      result = [[1,1,1,1,1,0,0,0,0,0],
+                [0,0,0,0,0,0,0,0,0,0],
+                [0,0,0,0,0,0,0,0,0,0],
+                [0,0,0,0,0,0,0,0,0,0],
+                [0,0,0,0,0,0,0,0,0,0],
+                [0,0,0,0,0,0,0,0,0,0],
+                [0,0,0,0,0,0,0,0,0,0],
+                [0,0,0,0,0,0,0,0,0,0],
+                [0,0,0,0,0,0,0,0,0,0],
+                [0,0,0,0,0,0,0,0,0,0]]
+
+      player.placeShip([[0],[0]], 5)
       expect(player.lookAtOwnBoard()).toEqual(result)
     })
   })

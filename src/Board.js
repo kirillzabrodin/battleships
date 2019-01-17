@@ -18,7 +18,7 @@ class Board {
     return this.board;
   }
 
-  addShip(row, column) {
-    this.board[row][column] = 1
+  addShip(position, length) {
+    this.board[position[0]][position[0]] = 1
   }
 }
