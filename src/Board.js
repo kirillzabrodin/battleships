@@ -19,6 +19,8 @@ class Board {
   }
 
   addShip(position, length) {
-    this.board[position[0]][position[0]] = 1
+    for (let i = 0; i < length; i++) {
+      this.board[position[0]][(position[1] + i)] = 1
+    }
   }
 }

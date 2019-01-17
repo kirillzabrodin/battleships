@@ -26,13 +26,15 @@ describe('Board', () => {
 
   describe('#addShip', () => {
     it('adds a ship at location', () => {
-      board.addShip([0],[0])
+      board.addShip([0,0], 1)
       expect(board.showAlly()[0][0]).toEqual(1);
     });
 
     it('adds ships of different lengths', () => {
-      board.addShip([0],[0])
-      expect(board.showAlly()[0][0]).toEqual(1);
+      board.addShip([0,0], 4)
+      for (let i = 0; i < 4; i++) {
+        expect(board.showAlly()[0][i]).toEqual(1);
+      }
     });
   });
 });

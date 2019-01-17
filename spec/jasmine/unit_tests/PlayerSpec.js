@@ -10,13 +10,13 @@ describe('Player', () => {
 
   describe('#placeShip', function() {
     it('places ship on board', function() {
-      player.placeShip([[0],[0]], 1)
-      expect(board.addShip).toHaveBeenCalledWith([[0],[0]], 1)
+      player.placeShip([0,0], 1)
+      expect(board.addShip).toHaveBeenCalledWith([0,0], 1)
     })
 
     it('ships can vary in length', function() {
-      player.placeShip([[0],[0]], 4)
-      expect(board.addShip).toHaveBeenCalledWith([[0],[0]], 4)
+      player.placeShip([0,0], 4)
+      expect(board.addShip).toHaveBeenCalledWith([0,0], 4)
     })
   })
 

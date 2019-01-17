@@ -19,7 +19,7 @@ describe('Game', () => {
                 [0,0,0,0,0,0,0,0,0,0],
                 [0,0,0,0,0,0,0,0,0,0]]
 
-      player.placeShip([[0],[0]], 1)
+      player.placeShip([0,0], 1)
       expect(player.lookAtOwnBoard()).toEqual(result)
     })
 
@@ -35,7 +35,7 @@ describe('Game', () => {
                 [0,0,0,0,0,0,0,0,0,0],
                 [0,0,0,0,0,0,0,0,0,0]]
 
-      player.placeShip([[0],[0]], 5)
+      player.placeShip([0,0], 5)
       expect(player.lookAtOwnBoard()).toEqual(result)
     })
   })
