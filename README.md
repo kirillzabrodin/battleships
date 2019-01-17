@@ -7,7 +7,8 @@ This is a basic Battleships app. It is a sample tech test to work on using a TDD
 ### [User Stories](https://github.com/kirillzabrodin/battleships#user-stories) | [Installation](https://github.com/kirillzabrodin/battleships#installation) | [Usage](https://github.com/kirillzabrodin/battleships#usage) | [Tests](https://github.com/kirillzabrodin/battleships#tests) | [Example](https://github.com/kirillzabrodin/battleships#example) | [Contributing](https://github.com/kirillzabrodin/battleships#contributing)
 
 ## User stories
-- [x]```As a player
+```
+As a player
 So that I can prepare for the game
 I would like to place a ship in a board location
 ```
