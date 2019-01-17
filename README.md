@@ -79,7 +79,7 @@ Code tests won't run if linter doesn't pass and coverage reports can be found in
 yourName = new Player()
 *Player {}*
 yourName.lookAtOwnBoard()
-0: (10) [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+0: (10) [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 1: (10) [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 2: (10) [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 3: (10) [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
