@@ -13,3 +13,5 @@ after_success:
   - codecov --file spec/jasmine/coverage/lcov.info --disable search
 before_script:
   - npm install
+notifications:
+  email: false
