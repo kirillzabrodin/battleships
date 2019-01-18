@@ -38,5 +38,21 @@ describe('Game', () => {
       player.placeShip([0,0], 5)
       expect(player.lookAtOwnBoard()).toEqual(result)
     })
+
+    it('can place a ship in any direction', function() {
+      result = [[1,0,0,0,0,0,0,0,0,0],
+                [1,0,0,0,0,0,0,0,0,0],
+                [1,0,0,0,0,0,0,0,0,0],
+                [1,0,0,0,0,0,0,0,0,0],
+                [1,0,0,0,0,0,0,0,0,0],
+                [0,0,0,0,0,0,0,0,0,0],
+                [0,0,0,0,0,0,0,0,0,0],
+                [0,0,0,0,0,0,0,0,0,0],
+                [0,0,0,0,0,0,0,0,0,0],
+                [0,0,0,0,0,0,0,0,0,0]]
+
+      player.placeShip([0,0], 'vertical', 5)
+      expect(player.lookAtOwnBoard()).toEqual(result)
+    })
   })
 });

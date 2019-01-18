@@ -7,7 +7,7 @@ class Player {
     return self.board.showAlly();
   }
 
-  placeShip(position, length) {
-    self.board.addShip(position, length)
+  placeShip(position, direction, length) {
+    self.board.addShip(position, direction, length)
   }
 }
