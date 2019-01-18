@@ -18,9 +18,22 @@ class Board {
     return this.board;
   }
 
-  addShip(position, length) {
-    for (let i = 0; i < length; i++) {
-      this.board[position[0]][(position[1] + i)] = 1
+  addShip(position, direction, length) {
+    switch (direction) {
+      case 'horizontal':
+        for (let i = 0; i < length; i++) {
+          this.board[position[0]][(position[1] + i)] = 1
+        }
+        break;
+
+      case 'vertical':
+        for (let i = 0; i < length; i++) {
+          this.board[position[0] + i][(position[1])] = 1
+        }
+        break;
+
+      default:
+        break
     }
   }
 }
